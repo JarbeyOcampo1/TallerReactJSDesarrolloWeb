@@ -1,0 +1,39 @@
+.publicacion {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    margin: 20px; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .publicacionFoto {
+    width: 65%; 
+    max-width: 400px; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-bottom: 10px; 
+  }
+  
+  .card {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 10px; 
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 5px; 
+    background-color: #007bff;
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
